@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/yzr/toolchain/.build/src/gcc-4.8.4/configure --build=i686-build_pc-linux-gnu --host=i686-build_pc-linux-gnu --target=arm-cortex_a8-linux-gnueabihf --prefix=/home/yzr/x-tools/arm-cortex_a8-linux-gnueabihf --with-sysroot=/home/yzr/x-tools/arm-cortex_a8-linux-gnueabihf/arm-cortex_a8-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv7-a --with-cpu=cortex-a8 --with-tune=cortex-a8 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.21.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --with-gmp=/home/yzr/toolchain/.build/arm-cortex_a8-linux-gnueabihf/buildtools --with-mpfr=/home/yzr/toolchain/.build/arm-cortex_a8-linux-gnueabihf/buildtools --with-mpc=/home/yzr/toolchain/.build/arm-cortex_a8-linux-gnueabihf/buildtools --with-ppl=no --with-isl=no --with-cloog=no --with-libelf=no --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-nls --disable-multilib --with-local-prefix=/home/yzr/x-tools/arm-cortex_a8-linux-gnueabihf/arm-cortex_a8-linux-gnueabihf/sysroot --enable-c99 --enable-long-long";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "cortex-a8" }, { "arch", "armv7-a" }, { "tune", "cortex-a8" }, { "float", "hard" }, { "fpu", "neon" }, { "tls", "gnu" } };
